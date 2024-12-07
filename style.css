@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+  font-family: "Kanit", serif;
+  font-family: "Jersey 20", sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Jersey 20", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background: linear-gradient(
+        rgba(103, 138, 109, 0),
+        rgba(123, 126, 91, 0)
+    ),
+    url(imagenes/bgg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0 0 0;
+    margin-bottom: 20px
+}
+
+.menu{
+    position:absolute;
+    top: 0%;
+    left: 25%;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    color: #54542d;
+    font-size: 450px;
+    font-weight: 800;
+    text-transform:uppercase;
+}
+
+.menu .navbar ul li {
+    position:relative;
+    float:left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 20px;
+    color:#000000;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #e8d50a;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 250px;
+   align-items: left;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    padding: 0 200px;
+}
+
+.header-txt h1 {
+    font-size: 85px
+    line-height: 1;
+    color: #00000;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    color:#000000
+    margin-bottom: 35px;
+    font-family:"Kanit", serif;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #ffd5004e
+}
+
+.about {
+    padding: 100px 0;
+    background-color: #ccf0ff;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+}
+
+.about-txt {
+    flex-basis: 50%;
+    padding-right: 35px;
+}
+
+span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #392d11;
+}
+
+h2{
+    font-size: 40px;
+    color:#000000;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+hr {
+    border: 1px solid hwb(105 51% 0%)
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    flex-basis: 50%;
+    align-self:center;
+}
+
+.objetos{
+    background: linear-gradient(
+        rgba(103, 138, 109, 0),
+        rgba(56, 57, 53, 0.635)
+    ),
+    url(imagenes/wallpapersden.com_stardew-valley_3840x2160.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    min-height: 95vh;
+    padding: 100 0;
+    text-align: center;
+}
+
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #392d11;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 40px;
+    color:#000000;
+    margin: 15px 0;
+    line-height: 1;
+}
+
+    .objetos-content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    
+    .objetos-1 {
+        flex-basis: calc(50% - 25px);
+        background-color:#ffffff9a;
+        padding: 25px;
+        box-shadow: 0 0 20px #000000
+    }
+
+    .objetos-1 h4 {
+        color:#000000;
+        font-size: 30px;
+        margin-bottom: 10px
+    }
+    
+    .objetos-1 p {
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-decoration: underline;
+        
+    }
+    
+    .face {
+        width: 450px;
+        height: 250px;
+        align-content: center;
+        margin-bottom: 10px
+    }
+
+.Info {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #869c72ac;
+    margin-top: 20px;
+}
+
+.Info hr{
+    width: 5%;
+}
+
+.Info-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+    margin-top: 25%;
+}
+
+.Info-1 {
+    flex-basis: calc(33.3% - 20px);
+    border: 2px solid #ffffff;
+    padding: 30px 50px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000
+}
+
+.Info-1 span{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+
+.consolas {
+    background: linear-gradient(
+        rgba(103, 138, 109, 0),
+        rgba(254, 255, 253, 0.452)
+    ),
+    url(imagenes/catt.jpg);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    min-height: 95vh;
+    padding: 100 0;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.consolas-content {
+    display: flex;
+}
+
+.consolas-txt{
+    flex-basis: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    font-size: 30px
+}
+
+.consolas-vid{
+    width: 80%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px 0;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+.multijugador-content {
+    display: flex;
+}
+
+.multijugador-txt{
+    flex-basis: 50%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px 0 0 0;
+    font-size: 30px
+}
+
+.multijugador-vid{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px 0;
+}
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+.recetas{
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fce9a7;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:20px
+}
+
+span{
+    font-size: 18px;
+    color:#000000
+}
+
+h2{
+    font-size: 25px;
+    margin-top:10px;
+    color:#000000
+}
+
+hr{
+    border: 0;
+    border-top: 2px solid #000000;
+    width: 50%
+    margin: 10px 0;
+}
+
+.recetas-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.recetas-1{
+    width: 300px;
+    padding: 15px;
+    background-color: #8ec2ed4d;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.553);
+    text-align: center;
+}
+
+.recetas-1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.recetas-1 h2{
+    font-size: 24px;
+    color:#000000
+    margin-bottom: 10px;
+}
+
+.recetas-1 p{
+    font-size: 18px;
+    color:#000000
+}
+
+.ingredientes{
+    width: 32%; 
+    padding: 20px;
+    background-color:#8ec2ed4d;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.553);
+    margin-bottom: 20px;
+}
+
+.ingredientes span{
+    font-size: 18px;
+    color: #000000;
+  
+}
+
+.ingredientes-1 h2{
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.ingredientes-1 ol {
+    padding-left: 20px;
+    color: #444;
+}
+
+.ingredientes-1 li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.procedimiento{
+    width: 32%; /* Tres secciones en una fila */
+    padding: 20px;
+    background-color: #8ec2ed4d;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.553);
+    margin-bottom: 20px;
+}
+}
+
+.procedimiento span {
+    font-size: 18px;
+    color: #000000;
+}
+
+.procedimiento-1 h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.procedimiento-1 p {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px; 
+}
+
+.procedimiento-1 img {
+    width: 525px; 
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
